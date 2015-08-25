@@ -1,0 +1,6 @@
+---- exit_timer Matches (5 in 2 files) ----
+Msgfor_hot.c (app\msg):extern xd_u8 exit_timer;
+Music.c (app\music):xd_u8 exit_timer=0,exit_en_flag=0;
+Music.c (app\music):			exit_timer=6;
+Music.c (app\music):			exit_timer--;
+Music.c (app\music):			if(exit_timer==0){
